@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/even_container"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+
+    <ImageView android:id="@+id/user_img"
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        android:layout_marginTop="80dip"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_launcher"/>
+
+    <ImageView android:id="@+id/odd_bubble"
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dip"
+        android:src="@drawable/ic_received_msg"/>
+
+    <TextView android:id="@+id/text" 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ffffff" 
+        android:textSize="16dip"
+        android:layout_marginRight="120dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginTop="10dip" />
+
+</RelativeLayout>

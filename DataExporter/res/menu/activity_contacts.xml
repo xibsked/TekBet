@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_all_contacts"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="All Contacts"/>
+    <item
+        android:id="@+id/menu_phone"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Phone Contacts"/>
+    <item
+        android:id="@+id/menu_sim"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Sim Contacts"/>
+     <item
+        android:id="@+id/menu_select_all"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Select All"/>
+    <item
+        android:id="@+id/menu_export"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Export as"/>
+
+</menu>

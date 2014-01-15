@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_select_all"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Select All"/>
+    <item
+        android:id="@+id/menu_all_msgs"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="All Messages"/>
+    <item
+        android:id="@+id/menu_all_sent"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="All Sent"/>
+    <item
+        android:id="@+id/menu_all_received"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="All Received"/>
+    
+    <item
+        android:id="@+id/menu_export"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Export as"/>
+    
+
+</menu>
